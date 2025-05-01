@@ -1,6 +1,10 @@
 
+import re
+# Want to refresh on regex
+
 # Ask user to input a password
 
+# Starts Loop
 while True:
 	password = input("Enter your password: ")
 
