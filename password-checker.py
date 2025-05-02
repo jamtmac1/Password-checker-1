@@ -22,6 +22,12 @@ while True:
 			break #Learning that break is not the ideal way to exit a loop but okay sense this is a tiny loop
 		else:
 			print("Password must contain a numeric value and special character")
-		
+
+#Password attempts limit
+attempts = 0
+max_attempts = 5
+
+while attemps < max_attempts:
+	password =		
 
 
