@@ -1,13 +1,16 @@
 
 import re
-# Want to refresh on regex
+# Placeholder to refresh on regex since I saw that regex would be a better usecase here for more complex loops
 
-# Ask user to input a password
+#
+attempts = 0
+max_attempts = 5
 
 # Starts Loop
 while True:
+	# Ask user to input password
 	password = input("Enter your password: ")
-
+	attempts += 1
 	# Strength options 
 	if len(password) <8:
 		print("Password is too weak")
@@ -23,11 +26,6 @@ while True:
 		else:
 			print("Password must contain a numeric value and special character")
 
-#Password attempts limit
-attempts = 0
-max_attempts = 5
-
-while attemps < max_attempts:
-	password =		
+			
 
 
