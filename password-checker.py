@@ -29,6 +29,9 @@ while True:
 	new_password = input("Create password: ")
 	confirm_password = input("Confirm new password: ")
 	if new_password !=  confirm_password
+		print ("Passwords do not match")
+		continue
+
 
 			
 
