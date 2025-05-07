@@ -33,7 +33,7 @@ while True:
 	print("Your password hint has been saved.")
 	break
 
-# Account Creation
+# Login 
 max_attempts = 5
 show_hint = False
 login_attempts = 0
@@ -53,7 +53,7 @@ while login_attempts < max_attempts:
 		if login_attempts == 3 and not show_hint:
 			print(f"Hint: {password_hint}")
 			show_hint = True
-		
+# Attempts calc
 		attempts_left = max_attempts - login_attempts
 		if attempts_left > 0:
 			print(f"You have {attempts_left} attempts left.")
