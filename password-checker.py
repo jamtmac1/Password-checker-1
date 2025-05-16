@@ -43,13 +43,13 @@ print("Login")
 while login_attempts < max_attempts:
 	entered_password = input("Enter your password: ")
 	login_attempts += 1
-	
+
 	if entered_password == password:
 		print("Password Accepted")
 		break
 	else:
 		print("Incorrect Password: Try Again.")
-		
+
 		if login_attempts == 3 and not show_hint:
 			print(f"Hint: {password_hint}")
 			show_hint = True
