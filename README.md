@@ -39,12 +39,10 @@ I built this to work on my Python development. This will help me show coding pro
 # Future Enhancements
 - Hash password for added security
 - Save credentials to a local file
-- Allow multiple users
-- Add unit tests for logic
 - Integrate with AWS
 
 Jamal Henderson
-Cloud Engineer in training 
+Cloud Engineer
 
 ```bash
 python password_checker.py
