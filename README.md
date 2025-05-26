@@ -24,7 +24,7 @@ This is designed to simulate basic authentication logic in a command-line interf
 
 # Why?
 
-I built this to work on my Python development. This will help me show coding proficiency as I try to rotate into Cloud Engineering. What I am trying to improve:
+I built this to work on my Python development. This will help me show coding proficiency as I try to rotate into Cloud Engineering/DevOps. What I am trying to improve:
 
 - Logic structuring
 - Syntax
