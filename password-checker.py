@@ -1,4 +1,4 @@
-
+import hashlib
 import re
 # Placeholder to refresh on regex since I saw that regex would be a better usecase here for more complex loops
 
