@@ -11,10 +11,11 @@ while True:
 	# Passwords Match?
 	if password!= confirm_password:
 		print("Passwords do not match")
-
+                continue 
 	# Strength options
 	if len(password) <8:
 		print("Password is too weak")
+		continue
 	elif len(password) <=11:
 		print("Password is moderate. Please make it stronger")
 	else:
