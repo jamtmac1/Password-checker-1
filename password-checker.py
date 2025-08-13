@@ -24,7 +24,7 @@ while True:
 
 		if has_number and has_special:
 			print("Password is strong and accepted")
-			break #Learning that break is not the ideal way to exit a loop but okay since this is a tiny loop
+			break # Learning that break is not the ideal way to exit a loop but okay since this is a tiny loop
 		else:
 			print("Password must contain a numeric value and special character")
 			continue
